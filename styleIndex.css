@@ -1,0 +1,157 @@
+body{
+    background-color: #F0EBE3;
+} 
+.contenido_portafolio{
+    background-color: #F0EBE3;
+}
+#contendor_titulo h1{
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: xx-large;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #576F72;
+}
+#imagen_desarrollo_web img{
+    height: 300px;
+    width: 500px;
+}
+#imagen_desarrollo_web{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_portafolio{
+    background-color: #7D9D9C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: 800;
+    font-size: 1rem;
+}
+#titulo_presentacion{
+    text-align: center;
+    color: #112b2e;
+    font-size: xx-large;
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+#parrafo_presentacion{
+    text-align: center;
+}
+.tabla_descripcion{
+    background-color: #7D9D9C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    height: 500px;
+}
+.contenedor_tabla{
+    max-width: 1200px;
+    flex-grow: 1;
+    margin: auto;
+    position: relative;
+    width: auto;
+}
+.contenido_tabla{
+    display: flex;
+}
+div{
+    display: block;
+}
+.caja{
+    background-color: #F0EBE3;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgb(233, 240, 243 / 50%), 0 0 0 1px #e6ecf8;
+    color: black;
+    display: block;
+    padding: 1.25rem;
+    text-align: center;
+}
+.column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+    
+}
+.column:nth-child(even)
+{
+    border-left: 2px solid #7D9D9C ;
+    border-right: 2px solid #7D9D9C;
+}
+.lista{
+    list-style: none;
+}
+h3{
+    color: rgb(66, 172, 110);
+}
+footer {
+    background-image: url(fondoFooter.jpg);
+    width: 84%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #7D9D9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer span {
+    color: black;
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(git.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover {
+    background-color: white;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2) {
+    background-image: url(facebook.png);
+}
+
+.social-icon:nth-of-type(3) {
+    background-image: url(insta.png);
+}
+mark{
+    background-color: #85F4FF ;
+}
+.mis_trabajos{
+    align-items: center;
+}
+.mis_trabajos img{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+}
+.contenedor_trabajos{
+    justify-content: center;
+}
