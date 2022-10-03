@@ -48,13 +48,18 @@ body{
     margin-right: 0;
     justify-content: center;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .contenedor_tabla{
     max-width: 1200px;
     flex-grow: 1;
     margin: auto;
     position: relative;
-    width: auto;
+    width: auto; 
+    flex: 1;
+    min-width: 250px;
+
 }
 .contenido_tabla{
     display: flex;
@@ -65,11 +70,15 @@ div{
 .caja{
     background-color: #F0EBE3;
     border-radius: 12px;
-    box-shadow: 0 5px 5px 0 rgb(233, 240, 243 / 50%), 0 0 0 1px #e6ecf8;
     color: black;
-    display: block;
+    display: flex;
     padding: 1.25rem;
     text-align: center;
+}
+@media screen and (max-width: 858px) {
+    .column{
+        font-size: 13px;
+    }
 }
 .column{
     display: block;
@@ -154,4 +163,8 @@ mark{
 }
 .contenedor_trabajos{
     justify-content: center;
+}
+.contenedor_portafolio{
+    display: flex;
+    flex-wrap: wrap;
 }
