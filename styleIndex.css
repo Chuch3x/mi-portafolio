@@ -173,3 +173,25 @@ mark{
     display: flex;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 858px) {
+
+    .contenido_tabla{
+        display: flex;
+        flex-direction: column;
+    }
+    .caja{
+        justify-content: center;
+        display: flex;
+        background-color: #F0EBE3;
+    }
+    .column{
+        border: solid 2px #576F72;
+        border-radius: 15px;
+    }
+    .column:nth-child(odd){
+        background-color: #ECB390;
+    }
+    .mis_trabajos{
+        padding-top: 20%;
+    }
+}
